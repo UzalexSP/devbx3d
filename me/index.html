@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="ru" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-2N95GX0T1B"></script>
+    <script src="/assets/js/analytics.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEVBX3D | Обо мне</title>
+    <script src="/assets/3.4.17"></script>
+    <script src="/assets/js/config.js" defer></script>
+    <script src="/assets/js/bg.js" defer></script>
+    <link href="/assets/style.css" rel="stylesheet">
+</head>
+<body class="text-neutral-300 font-sans flex flex-col min-h-screen bg-[#050505] antialiased selection:bg-white selection:text-black">
+<canvas id="bg-canvas" class="fixed top-0 left-0 w-full h-full -z-10"></canvas>
+    <header class="bg-[#0a0a0a]/80 backdrop-blur-md border-b border-neutral-900 fixed top-0 w-full z-50 transition-all">
+        <div class="max-w-7xl mx-auto px-6 sm:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex-shrink-0">
+                    <a href="/index.html" class="flex items-center gap-3 group">
+                        <img class="h-9 w-auto object-contain opacity-90 group-hover:opacity-100 group-hover:scale-100 transition-all duration-300" src="/assets/images/logo.png" alt="DEVBX3D Logo">
+                        <span class="font-druk text-xs text-white tracking-widest hidden sm:block opacity-70 group-hover:opacity-100 transition-all"></span>
+                    </a>
+                </div>
+                
+                <nav class="flex space-x-1 sm:space-x-2">
+                    <a href="/index.html" class="unb-200 flex items-center gap-2 px-4 py-2 text-sm font-medium text-neutral-400 hover:text-white rounded-md hover:bg-neutral-900/60 transition-all duration-300">
+                        <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21.75h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21.75h2.25" /></svg>
+                        <span class="hidden md:inline">Главная</span>
+                    </a>
+                    <a href="/work.html" class="unb-200 flex items-center gap-2 px-4 py-2 text-sm font-medium text-neutral-400 hover:text-white rounded-md hover:bg-neutral-900/60 transition-all duration-300">
+                        <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M17.25 6.75 22.5 12l-5.25 5.25m-10.5 0L1.5 12l5.25-5.25m7.5-3-4.5 16.5" /></svg>
+                        <span class="hidden md:inline">Проекты</span>
+                    </a>
+                    <a href="/me/index.html" class="unb-200 flex items-center gap-2 px-4 py-2 text-sm font-medium text-white-800 hover:text-white rounded-md hover:bg-neutral-900/60 transition-all duration-300">
+                        <svg class="w-4 h-4" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor"><path stroke-linecap="round" stroke-linejoin="round" d="M15.75 6a3.75 3.75 0 1 1-7.5 0 3.75 3.75 0 0 1 7.5 0ZM4.501 20.118a7.5 7.5 0 0 1 14.998 0A17.933 17.933 0 0 1 12 21.75c-2.676 0-5.216-.584-7.499-1.632Z" /></svg>
+                        <span class="hidden md:inline">Обо мне</span>
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="flex-grow w-full pt-20">
+        <section class="relative w-full h-[90vh] flex flex-col justify-center items-center text-center px-6 overflow-hidden">
+            <h3 class="font-druk text-4xl md:text-5xl text-white mb-6 uppercase tracking-wider drop-shadow-2xl py-4">ТУТ МОЖНО УЗНАТЬ БАЗУ ПРО <span class="md:text-7xl py-4">"DEVBX3D"</span></h3>
+            <p class="unb-200 text-base md:text-xl text-gray-400 max-w-2xl mx-auto mb-8 leading-relaxed drop-shadow-lg">Внизу можешь ознакомиться с информацией о проекте, ну и обо мне тоже.</p>
+        </section>
+
+            <section class="bg-[#111111] border-y border-neutral-900 w-full py-24">
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="flex flex-col md:flex-row items-center gap-12 md:gap-20">
+                    <div class="w-full text-center flex flex-col justify-center">
+                        <h3 class="font-druk text-2xl text-white mb-6 tracking-wide uppercase">С ЧЕГО БЫ НАЧАТЬ...</h3>
+                        <div class="unb-200 space-y-4 text-neutral-400 leading-relaxed">
+                            <p>
+                                Привет ещё раз! Как ты уже понимаешь, я Uzalex, но уже под новым псевдонимом DevBX3D.
+                            </p>
+                            <p>
+                                И возможно тебя интересует такой вопрос - <span class="text-white">"а на кой бабос ты вообще решил сменить ник свой родной?"</span> Решил его сменить не по фану, а начать с новой своей эволюции творчества и продвижения себя в интернете.
+                            </p>
+                            <p>
+                                Программирование, дизайн и музыка - это три направления, в которых я постоянно развиваюсь. Я стремлюсь делать свои проекты качественными и интересными, чтобы каждый, кто на них натыкается, находил для себя что-то полезное или просто залипал под мои треки.
+                            </p>
+                        </section>
+
+            <section class="bg-[#111111]/75 border-neutral-900 w-full py-24">
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="flex flex-col md:flex-row items-center gap-12 md:gap-20">
+                    
+                    <div class="w-full md:w-1/2 relative">
+                        <div class="aspect-video bg-neutral-800 border border-neutral-700 rounded-sm overflow-hidden relative group">
+                            <div class="absolute inset-0 flex items-center justify-center text-neutral-600 font-mono text-sm">
+                                <img src="assets/img/logo_result.png" alt="DEVBX3D Avatar" class="w-full h-full object-cover">
+                            </div>
+                            <div class="absolute inset-0 bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                        </div>
+                    </div>
+
+                    <div class="w-full md:w-1/2 flex flex-col justify-center">
+                           <div class="border-l-2 border-white pl-4 my-6 text-left max-w-2xl mx-auto">
+                                <p class="text-xs uppercase tracking-widest text-neutral-500 font-sans">Вопрос от читателя</p>
+                                <p class="text-white italic text-sm mt-1 font-medium">«Хорошо, а как ты тогда создал свою аватарку? Либо этот твой гличнутый текст?»</p>
+                            </div>
+                            <p class="unb-200 text-neutral-400 leading-relaxed">
+                                - Аватарку я перебирал очень долгое время, и дошёл до этого результата. Основа вообще моей аватарки, это шрифт Rectek, созданный человеком Axel Lymphos (СПАСИБО ТЕБЕ ЧУВАК!), Он является полностью бесплатным, и гличнутый эффект я создал на сайте <a href="https://fontmeme.com/fonts/rektec-font/" target="_blank" class="text-white hover:text-blue-400 transition-all underline">Fonts Meme</a>, и чтобы воссоздать мою аватарку, напишите в поле с текстом "devbx3d", в семействе эффектов выберите "Style-GlitchC" ну и нажмите на генерацию, результат увидете сами.    
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-[#111111]/75 border-neutral-900 w-full py-24">
+        <div class="max-w-6xl mx-auto px-6">
+        <div class="flex flex-col md:flex-row items-center gap-12 md:gap-20">
+            <div class="w-full md:w-1/2 flex flex-col justify-center">
+                <div class="border-l-2 border-white pl-4 mb-6 text-left max-w-2xl">
+                    <p class="text-xs uppercase tracking-widest text-neutral-500 font-sans">Вопрос от читателя</p>
+                    <p class="text-white italic text-sm mt-1 font-medium">«А почему ты начал заниматься музыкой?»</p>
+                </div>
+                <p class="unb-200 text-neutral-400 leading-relaxed">
+                    - Честно, я большой любитель Phonk House, особенно ночью посидеть, поиграть в какие-то дрифт гонки под него, самый угар, да и + делаеться он ОЧЕНЬ просто, но чтобы я сделал свой первый хороший фонк, на это ушло 4 ГОДА моего обучения. Но я рад своему результату, чему я обучился, и теперь я готов переходить на более серьёзные жанры, уровня EDM, Hyperpop, Drum & Bass, Dubstep и так далее...   
+                </p>
+                <p class="unb-200 text-neutral-400 leading-relaxed py-4">
+                    На скриншоте, вы можете увидеть мой первый, и думаю пока-что лучший фонк <a href="https://soundcloud.com/devbx3d/dimension" target="_blank" class="text-white hover:text-blue-400 transition-all underline">Dimension</a>. Который вы можете послушать на <a href="https://soundcloud.com/devbx3d" target="_blank" class="text-white hover:text-blue-400 transition-all underline">SoundCloud</a>.
+                </p>
+            </div>
+
+            <div class="w-full md:w-1/2 relative">
+                <div class="aspect-video bg-neutral-800 border border-neutral-700 rounded-sm overflow-hidden relative group">
+                    <div class="absolute inset-0 flex items-center justify-center text-neutral-600 font-mono text-sm">
+                        <img src="assets/img/dimension.png" alt="Dimension - DevBX3D" class="w-full h-full object-cover">
+                    </div>
+                    <div class="absolute inset-0 bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+        <section class="bg-[#111111]/75 border-neutral-900 w-full py-24">
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="flex flex-col md:flex-row items-center gap-12 md:gap-20">
+                    
+                    <div class="w-full md:w-1/2 relative">
+                        <div class="aspect-video bg-neutral-800 border border-neutral-700 rounded-sm overflow-hidden relative group">
+                            <div class="absolute inset-0 flex items-center justify-center text-neutral-600 font-mono text-sm">
+                                <img src="assets/img/minecraft.png" alt="Minecraft" class="w-full h-full object-cover">
+                            </div>
+                            <div class="absolute inset-0 bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                        </div>
+                    </div>
+
+                    <div class="w-full md:w-1/2 flex flex-col justify-center">
+                           <div class="border-l-2 border-white pl-4 mb-6 text-left max-w-2xl">
+                    <p class="text-xs uppercase tracking-widest text-neutral-500 font-sans">Вопрос от читателя</p>
+                    <p class="text-white italic text-sm mt-1 font-medium">«А в какие игры ты играешь?»</p>
+                </div>
+                            <p class="unb-200 text-neutral-400 leading-relaxed">
+                                - В основном я играю в гонки, шутеры и инди-игры. Тот же Counter-Strike 2, GTA 5 (если диск при мне), Minecraft, Geometry Dash, Roblox, Garry's Mod.
+                            </p>
+                            <p class="unb-200 text-neutral-400 leading-relaxed py-4">
+                                Люблю майнкрафт за его открытость, и возможность создавать свои моды, карты и текстуры. А ещё я люблю играть в Geometry Dash, потому что это игра на реакцию и скорость, и не дай Бог распилить стол...
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="bg-[#111111]/75 border-neutral-900 w-full py-24">
+        <div class="max-w-6xl mx-auto px-6">
+        <div class="flex flex-col md:flex-row items-center gap-12 md:gap-20">
+            <div class="w-full md:w-1/2 flex flex-col justify-center">
+                <div class="border-l-2 border-white pl-4 mb-6 text-left max-w-2xl">
+                    <p class="text-xs uppercase tracking-widest text-neutral-500 font-sans">Вопрос от читателя</p>
+                    <p class="text-white italic text-sm mt-1 font-medium">«Чем ты ещё занимаешься, помимо своих дел?»</p>
+                </div>
+                <p class="unb-200 text-neutral-400 leading-relaxed">
+                    - Вообще я помимо компа, люблю погулять на улице, особенно на природе. И так же люблю фотографировать, да и на столько, что считаю себя фотографом, и пытаюсь выжать максимум со своего <a href="https://www.google.com/search?sca_esv=687c80ba214a4f2f&sxsrf=APpeQnsnP85RVyGkaE9HVdlt4xXZqaWAPA:1784048880177&q=samsung+a35&source=lnms&fbs=ABfTbFVv2w2iSESTvmwEpLKOzozoZV_UAofHz_vGMSO9pTaHyWg9V4QsgGMAcxxJvUqYeNHd5MHsJ_GzChY4y3-YwWUEVBft5fEIATn8_YGK9LsYI1vgwHV1hPeLgUdM0u3MheCC-SmZtKko40QmrpNpLQb1k2bddfB8wZXH5v9KrdR2cFhW3KdelyFPimkitsM7XG1dKELIQUFUOoshra8egcEw50X0Ry5Z4MAVlGJuz5tEqwFSOlVOMT_w-VpRdYLl0OUWoWZ85B94KqbB00a967UCegCOxw&sa=X&ved=2ahUKEwjn6I7-09KVAxVvGRAIHUN6Mv8Q0pQJegQIDBAB&biw=1360&bih=607&dpr=1" target="_blank" class="text-white hover:text-blue-400 transition-all underline">Samsung Galaxy A35</a>, но кстати, у меня это неплохо так получается.
+                </p>
+                <p class="unb-200 text-neutral-400 leading-relaxed py-4">
+                   Мои фотографии так же есть в <a href="https://www.instagram.com/devbx3d/" target="_blank" class="text-white hover:text-blue-400 transition-all underline">Instagram</a>, и я стараюсь выкладывать их там, но к сожалению, мне лень иногда их выкладывать.
+                </p>
+            </div>
+
+            <div class="w-full md:w-1/2 relative">
+                <div class="aspect-video bg-neutral-800 border border-neutral-700 rounded-sm overflow-hidden relative group">
+                    <div class="absolute inset-0 flex items-center justify-center text-neutral-600 font-mono text-sm">
+                        <img src="assets/img/photo.png" alt="Park Photo" class="w-full h-full object-cover">
+                    </div>
+                    <div class="absolute inset-0 bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="bg-[#111111]/75 border-neutral-900 w-full py-24">
+            <div class="max-w-6xl mx-auto px-6">
+                <div class="flex flex-col md:flex-row items-center gap-12 md:gap-20">
+                    
+                    <div class="w-full md:w-1/2 relative">
+                        <div class="aspect-video bg-neutral-800 border border-neutral-700 rounded-sm overflow-hidden relative group">
+                            <div class="absolute inset-0 flex items-center justify-center text-neutral-600 font-mono text-sm">
+                                <img src="assets/img/lenovo_yoga.png" alt="Lenovo Yoga" class="w-full h-full object-cover">
+                            </div>
+                            <div class="absolute inset-0 bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                        </div>
+                    </div>
+
+                    <div class="w-full md:w-1/2 flex flex-col justify-center">
+                           <div class="border-l-2 border-white pl-4 mb-6 text-left max-w-2xl">
+                    <p class="text-xs uppercase tracking-widest text-neutral-500 font-sans">Вопрос от читателя</p>
+                    <p class="text-white italic text-sm mt-1 font-medium">«Расскажи про своего зверя, на котором делаешь музыку и программируешь.»</p>
+                </div>
+                            <p class="unb-200 text-neutral-400 leading-relaxed">
+                                - О, так это у меня <a href="https://www.google.com/search?sca_esv=c9d490b39b0888f4&sxsrf=APpeQnsqzwMI3LIOKbfUkwFq4QU3x7BYkw:1784051933138&q=lenovo+yoga+7+14arp8+r5+7535u&source=lnms&fbs=ABfTbFVv2w2iSESTvmwEpLKOzozoZV_UAofHz_vGMSO9pTaHyWg9V4QsgGMAcxxJvUqYeNHd5MHsJ_GzChY4y3-YwWUEVBft5fEIATn8_YGK9LsYI1vgwHV1hPeLgUdM0u3MheCC-SmZtKko40QmrpNpLQb1k2bddfB8wZXH5v9KrdR2cFhW3KdelyFPimkitsM7XG1dKELIQUFUOoshra8egcEw50X0Ry5Z4MAVlGJuz5tEqwFSOlVOMT_w-VpRdYLl0OUWoWZ85B94KqbB00a967UCegCOxw&sa=X&ved=2ahUKEwiB7PCt39KVAxWTFRAIHdM4GUgQ0pQJegQIDBAB&biw=1360&bih=607&dpr=1" target="_blank" class="text-white hover:text-blue-300 transition-all underline">Lenovo Yoga 7 14ARP8</a>, с которого я даже сейчас пишу данный сайт, делаю музон, и программиую. Скоро он у меня уже будет второй год, и я дико благодарен отцу, за то что он мне его отдал, забрав мой старый <a href="https://www.google.com/search?q=Lenovo+Ideapad+1+15ADA7+r5+3500u&oq=Lenovo+Ideapad+1+15ADA7+r5+3500u&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABjvBTIHCAIQABjvBTIHCAMQABjvBTIHCAQQABjvBTIKCAUQABiABBiiBNIBCTEyNzAzajBqN6gCALACAA&sourceid=chrome&source=chrome.ob&ie=UTF-8" target="_blank" class="text-white hover:text-blue-300 transition-all underline">Lenovo Ideapad 1 15ADA7</a>.
+                            </p>
+                            <p class="unb-200 text-neutral-400 leading-relaxed py-4">
+                                Так же до них двоих, был ещё мой старичок <a href="https://www.google.com/search?q=lenovo+b590+pentium+b960+chipset+hm70&oq=lenovo+b590+pentium+b960+chipset+hm70&gs_lcrp=EgZjaHJvbWUyBggAEEUYOTIHCAEQABjvBTIKCAIQABiABBiiBDIHCAMQABjvBTIKCAQQABiiBBiJBTIHCAUQABjvBdIBCTIwNDIzajBqN6gCALACAA&sourceid=chrome&source=chrome.ob&ie=UTF-8" target="_blank" class="text-white hover:text-blue-300 transition-all underline">Lenovo B590</a>, отслуживших мне добрых 9 лет, и очень им горжусь, что он радовал меня каждый день, да и всё равно, что он был не очень мощным.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    <section class="bg-[#111111]/75 border-neutral-900 w-full py-24">
+    <div class="max-w-6xl mx-auto px-6">
+        <div class="flex flex-col md:flex-row items-center gap-12 md:gap-20">
+
+            <div class="w-full md:w-1/2 flex flex-col justify-center">
+                <div class="border-l-4 border-white pl-5 mb-6 text-left max-w-2xl">
+                    <p class="text-xs uppercase tracking-widest text-neutral-500 font-sans">Вопрос от читателя</p>
+                    <p class="text-white italic text-sm mt-1 font-medium">«Были у тебя какие-то проекты? Может сервера свои, либо же игры?»</p>
+                </div>
+                
+                <p class="unb-200 text-neutral-400 leading-relaxed">
+                    - Да, и не мало. Было несколько проектов по майнкрафту, и все они неудачные, ну ладно, есть один над которым я прям хорошо постарался, и это RightHorizon. У этого проекта было всё, и хостинг, и свой сайт, который даже сейчас валяется у меня на пк, и неплохая сборка плагинов. Я хотел сделать его как свой первый очень серьёзный проект по майнкрафту, убил много времени, и завалил даже сессию, чтобы доделать его, но к сожалению, я не смог его доделать, и он умер. Но я рад что я его делал вообще, и что я научился многому на нём. И возможно в будущем я его возрожу, но уже с новым названием, и новым контентом.
+                </p>
+                
+                <p class="unb-200 text-neutral-400 leading-relaxed py-4">
+                    Так же специально для курсовой работы я делал клон Geometry Dash, и я рад своему результату, на чистом C# я смог сделать три уровня на JSON (с помощью генератора конечно же, написанным на JS), более менее нормальную физику, и так же синк музыки с уровнем, есть режим портала, и есть порталы гравитации. За проект я получил 60, ведь я многое что недо рассказал в проекте, вот и поэтому сильно снизили оценку. Да и я добивался только 60, мне главное курсача закрыть, да и пойти на каникулы. Даже сделал кастомную мелодию в главном меню этой гд-шки, и прозвал я его как "Syntax Dash".
+                </p>
+            </div>
+
+            <div class="w-full md:w-1/2 flex flex-col gap-6 relative">
+
+                <div class="aspect-video bg-neutral-800 border border-neutral-700 rounded-sm overflow-hidden relative group">
+                    <div class="absolute inset-0 flex items-center justify-center text-neutral-600 font-mono text-sm">
+                        <img src="assets/img/rh.jpg" alt="Minecraft Project" class="w-full h-full object-cover">
+                    </div>
+                    <div class="absolute inset-0 bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+
+                <div class="aspect-video bg-neutral-800 border border-neutral-700 rounded-sm overflow-hidden relative group">
+                    <div class="absolute inset-0 flex items-center justify-center text-neutral-600 font-mono text-sm">
+                        <img src="assets/img/syn_dash.png" alt="Geometry Dash Project or Photo" class="w-full h-full object-cover">
+                    </div>
+                    <div class="absolute inset-0 bg-white/5 opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section class="w-full min-h-[calc(130vh-80px)] flex flex-col justify-center items-center text-center px-6 relative">
+    <div class="max-w-4xl mx-auto">
+        <h3 class="font-druk text-4xl md:text-7xl text-white mb-6 uppercase tracking-wider">
+            ЭТО ПОКА-ЧТО ВСЁ!
+        </h3>
+        <p class="unb-200 text-base md:text-xl text-gray-400 mb-4 leading-relaxed">
+            Больше я не знаю что сюда добавить.
+        </p>
+        <p class="unb-200 text-base md:text-xl text-gray-400">
+            А ты знаешь? Предложи что сюда можно добавить, <a href="/contacts/index.html" class="text-white underline hover:text-neutral-300 transition-all">связавшись со мной</a>.
+        </p>
+    </div>
+</section>
+
+    </main>
+
+    <footer class="bg-[#0a0a0a] border-t border-neutral-900 mt-auto relative z-10">
+        <div class="max-w-7xl mx-auto px-6 py-12 sm:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-12 border-b border-neutral-900 pb-12">
+                
+                <div class="flex flex-col items-start space-y-4">
+                    <a href="./index.html" class="block group">
+                        <img class="h-10 w-auto object-contain opacity-70 group-hover:opacity-100 transition-all duration-300" src="/assets/images/logo.png" alt="DEVBX3D Logo Footer">
+                    </a>
+                    <p class="unb-200 text-sm text-neutral-500 leading-relaxed font-sans max-w-xs">DEVBX3D — Человек, который нашёл свой путь в программировании, дизайне и мире музыки. А ты готов к этому пути?</p>
+                </div>
+
+                <div>
+                    <h3 class="text-xs font-druk text-white tracking-widest uppercase mb-4">Навигация</h3>
+                    <ul class="space-y-2.5">
+                       <li><a href="/index.html" class="unb-200 text-sm text-neutral-500 hover:text-white transition-all flex items-center gap-2"><span>&middot;</span> Главная страница</a></li>
+                        <li><a href="/work.html" class="unb-200 text-sm text-neutral-500 hover:text-white transition-all flex items-center gap-2"><span>&middot;</span> Проекты</a></li>
+                        <li><a href="/contacts/index.html" class="unb-200 text-sm text-neutral-500 hover:text-white transition-all flex items-center gap-2"><span>&middot;</span> Контакты</a></li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="text-xs font-druk text-white tracking-widest uppercase mb-4">Связь</h3>
+                    <ul class="space-y-3">
+                        <li>
+                            <a href="https://t.me/DevBX3D_Official" class="unb-200 inline-flex items-center gap-3 text-sm text-neutral-500 hover:text-white transition-all group">
+                                <svg class="w-4 h-4 text-neutral-600 group-hover:text-white transition-all" viewBox="0 0 24 24" fill="currentColor"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm4.64 6.8c-.15 1.58-.8 5.42-1.13 7.19-.14.75-.42 1-.68 1.03-.58.05-1.02-.38-1.58-.75-.88-.58-1.38-.94-2.23-1.5-1-.65-.35-1 .22-1.62.15-.15 2.7-2.46 2.75-2.67.01-.03.01-.15-.06-.21-.07-.06-.17-.04-.25-.02-.11.02-1.84 1.16-5.2 3.43-.49.33-.94.5-1.34.49-.45-.01-1.3-.25-1.94-.46-.78-.26-1.4-.4-1.35-.85.03-.24.35-.48.96-.74 3.76-1.63 6.27-2.71 7.53-3.23 3.58-1.48 4.32-1.74 4.81-1.75.11 0 .35.03.5.16.13.1.17.24.19.34.02.06.03.19.01.26z"/></svg>
+                                <span>Telegram</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="unb-200 inline-flex items-center gap-3 text-sm text-red-500 transition-all group">
+                                <svg class="w-4 h-4 text-red-500 transition-all" viewBox="0 0 24 24" fill="currentColor"><path d="M20.317 4.37a19.791 19.791 0 0 0-4.885-1.515.074.074 0 0 0-.079.037c-.21.375-.444.864-.608 1.25a18.27 18.27 0 0 0-5.487 0 12.64 12.64 0 0 0-.617-1.25.077.077 0 0 0-.079-.037A19.736 19.736 0 0 0 3.677 4.37a.07.07 0 0 0-.032.027C.533 9.046-.32 13.58.099 18.057a.082.082 0 0 0 .031.057 19.9 19.9 0 0 0 5.993 3.03.078.078 0 0 0 .084-.028c.462-.63.874-1.295 1.226-1.994.021-.041.001-.09-.041-.106a13.093 13.093 0 0 1-1.873-.894.077.077 0 0 1-.008-.128c.126-.093.252-.19.372-.287a.075.075 0 0 1 .077-.011c3.92 1.793 8.18 1.793 12.061 0a.073.073 0 0 1 .078.009c.12.099.246.195.373.289a.077.077 0 0 1-.006.127 12.298 12.298 0 0 1-1.873.894.077.077 0 0 0-.041.107c.36.698.772 1.362 1.225 1.993a.076.076 0 0 0 .084.028 19.839 19.839 0 0 0 6.002-3.03.077.077 0 0 0 .032-.054c.5-5.177-.838-9.674-3.549-13.66a.061.061 0 0 0-.031-.03zM8.02 15.33c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.956-2.419 2.156-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.956 2.418-2.156 2.418zm7.975 0c-1.183 0-2.157-1.085-2.157-2.419 0-1.333.955-2.419 2.156-2.419 1.21 0 2.176 1.096 2.157 2.42 0 1.333-.946 2.418-2.156 2.418z"/></svg>
+                                <span>Discord</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/UzalexSP" class="unb-200 inline-flex items-center gap-3 text-sm text-neutral-500 hover:text-white transition-all group">
+                                <svg class="w-4 h-4 text-neutral-600 group-hover:text-white transition-all" viewBox="0 0 24 24" fill="currentColor"><path fill-rule="evenodd" clip-rule="evenodd" d="M12 2C6.477 2 2 6.477 2 12c0 4.42 2.865 8.166 6.839 9.489.5.092.682-.217.682-.483 0-.237-.008-.866-.013-1.7-2.782.603-3.369-1.34-3.369-1.34-.454-1.156-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.564 9.564 0 0112 6.844c.85.004 1.705.115 2.504.337 1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.203 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.743 0 .267.18.579.688.481C19.137 20.162 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
+                                <span>GitHub</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+            
+            <div class="mt-8 flex flex-col sm:flex-row justify-between items-center gap-4 text-xs font-mono text-neutral-600">
+               <p class="unb-200">&copy; 2026 DEVBX3D. Все права защищены.</p>
+                <p class="tracking-widest text-center">Сайт создан исключительно в учебных и демонстрационных целях. Все права на использованные медиаматериалы и шрифты принадлежат их владельцам.</p>
+                <p class="unb-200 text-right">Версия сайта: Alpha_0,061,2 Preview.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
