@@ -20,7 +20,6 @@ window.addEventListener('mouseout', function() {
     mouse.y = null;
 });
 
-// 1. СНАЧАЛА ОПИСЫВАЕМ КЛАСС
 class Particle {
     constructor() {
         this.x = Math.random() * canvas.width;
@@ -46,7 +45,6 @@ class Particle {
     }
 }
 
-// 2. ЗАТЕМ ОПИСЫВАЕМ ФУНКЦИИ
 function init() {
     particlesArray = [];
     for (let i = 0; i < numberOfParticles; i++) {
@@ -113,7 +111,6 @@ function animate() {
     requestAnimationFrame(animate);
 }
 
-// 3. И ТОЛЬКО ТЕПЕРЬ ЗАПУСКАЕМ
 window.addEventListener('resize', resizeCanvas);
-resizeCanvas(); // Теперь браузер уже знает все классы и функции!
+resizeCanvas();
 animate();
