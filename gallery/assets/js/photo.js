@@ -133,7 +133,7 @@ const photos = [
                 desc: "Первая RAW фотография, очень ею рад.",
                 device: "iPhone 15 Pro",
                 preview: "/assets/images/p_18.webp",
-                original: "/assets/images/nform/Вечерний мост.jpg"
+                original: "/assets/images/nform/Вечерний мост.png"
             },
             {
                 id: "19",
