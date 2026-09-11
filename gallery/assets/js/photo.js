@@ -175,6 +175,30 @@ const photos = [
                 preview: "/assets/images/p_23.webp",
                 original: "/assets/images/nform/Вид с моста.jpg"
             },
+            {
+                id: "24",
+                title: "Поле",
+                desc: "День рождения кента отмечать, думаю лучшее что случалось",
+                device: "iPhone 15 Pro",
+                preview: "/assets/images/p_24.webp",
+                original: "/assets/images/nform/Поле.png"
+            },
+            {
+                id: "25",
+                title: "Перенасыщеный лес",
+                desc: "Вот тебе и берёзочки, и ёлочки, и он солнышка как много не бывает....",
+                device: "iPhone 15 Pro",
+                preview: "/assets/images/p_25.webp",
+                original: "/assets/images/nform/Перенасыщеный лес.png"
+            },
+            {
+                id: "26",
+                title: "Кажись не вечерок...",
+                desc: "Я думаю каждый делал две версии, вечернюю и дневную",
+                device: "iPhone 15 Pro",
+                preview: "/assets/images/p_26.webp",
+                original: "/assets/images/nform/Кажись не вечерок.png"
+            },
         ];
 
 const galleryGrid = document.getElementById('gallery-grid');
