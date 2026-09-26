@@ -65,139 +65,211 @@ const photos = [
             },
             {
                 id: "09",
-                title: "Дождливый парк",
-                desc: "Любимая фотография сделана на самсу",
-                device: "Samsung Galaxy A35",
+                title: "Dimension",
+                desc: "Первый мой серьезный проект",
+                device: "iPhone 15 Pro",
                 preview: "/assets/images/p_09.webp",
-                original: "/assets/images/nform/Дождливый парк.png"
+                original: "/assets/images/nform/Dimension.png"
             },
             {
                 id: "10",
-                title: "Шейдеры",
-                desc: "Прекрасный вечерок, сидя на новом ноутбуке",
-                device: "Samsung Galaxy A35",
+                title: "Невёселая погода",
+                desc: "Иногда погода может давать отрицательное настроение, а может и положительное",
+                device: "Nikon P510",
                 preview: "/assets/images/p_10.webp",
-                original: "/assets/images/nform/Шейдеры.png"
+                original: "/assets/images/nform/Невеселая погода.jpg"
             },
             {
                 id: "11",
-                title: "Закат",
-                desc: "Прогулка с кентом в этот вечер была лучшая для вечера",
+                title: "Дождливый парк",
+                desc: "Любимая фотография сделана на самсу",
                 device: "Samsung Galaxy A35",
                 preview: "/assets/images/p_11.webp",
-                original: "/assets/images/nform/Закат.jpg"
+                original: "/assets/images/nform/Дождливый парк.png"
             },
             {
                 id: "12",
-                title: "Дамба, прекрасная вещь",
-                desc: "Когда я только приехал в Житомир, я не ожидал, что этот город будет настолько красивым, для таких красивых снимков.",
+                title: "Шейдеры",
+                desc: "Прекрасный вечерок, сидя на новом ноутбуке",
                 device: "Samsung Galaxy A35",
                 preview: "/assets/images/p_12.webp",
-                original: "/assets/images/nform/Дамба, прекрасная вещь.png"
+                original: "/assets/images/nform/Шейдеры.png"
             },
             {
                 id: "13",
-                title: "Загадочная высоковольтная линия",
-                desc: "Выглядит кинематографично...",
+                title: "Закат",
+                desc: "Прогулка с кентом в этот вечер была лучшая для вечера",
                 device: "Samsung Galaxy A35",
                 preview: "/assets/images/p_13.webp",
-                original: "/assets/images/nform/Загадочная высоковольтная линия.jpg"
+                original: "/assets/images/nform/Закат.jpg"
+            },
+            {
+                id: "14",
+                title: "Дамба, прекрасная вещь",
+                desc: "Когда я только приехал в Житомир, я не ожидал, что этот город будет настолько красивым, для таких красивых снимков.",
+                device: "Samsung Galaxy A35",
+                preview: "/assets/images/p_14.webp",
+                original: "/assets/images/nform/Дамба, прекрасная вещь.png"
             },
             {
                 id: "15",
-                title: "Речка",
-                desc: "Говорил с старостой, и вижу, что-то красивое, сказал ему ''а нук братанчик погодь, тут красота полнейшая'' сделал снимок, вот и пожалуйста, кадр есть.",
+                title: "Загадочная высоковольтная линия",
+                desc: "Выглядит кинематографично...",
                 device: "Samsung Galaxy A35",
                 preview: "/assets/images/p_15.webp",
-                original: "/assets/images/nform/Речка.png"
+                original: "/assets/images/nform/Загадочная высоковольтная линия.jpg"
             },
             {
                 id: "16",
-                title: "Постройка объекта",
-                desc: "Ну, ждем нового заселения",
-                device: "Nikon P510",
+                title: "Речка",
+                desc: "Говорил с старостой, и вижу, что-то красивое, сказал ему ''а нук братанчик погодь, тут красота полнейшая'' сделал снимок, вот и пожалуйста, кадр есть.",
+                device: "Samsung Galaxy A35",
                 preview: "/assets/images/p_16.webp",
-                original: "/assets/images/nform/Постройка объекта.png"
+                original: "/assets/images/nform/Речка.png"
             },
             {
                 id: "17",
-                title: "Утренний туман",
-                desc: "Сижу в университете, такой смотрю, а тут он какая красотень...",
-                device: "Samsung Galaxy A35",
+                title: "Постройка объекта",
+                desc: "Ну, ждем нового заселения",
+                device: "Nikon P510",
                 preview: "/assets/images/p_17.webp",
-                original: "/assets/images/nform/Утренний туман.jpg"
+                original: "/assets/images/nform/Постройка объекта.png"
             },
             {
                 id: "18",
-                title: "Вечерний мост",
-                desc: "Первая RAW фотография, очень ею рад.",
-                device: "iPhone 15 Pro",
+                title: "Утренний туман",
+                desc: "Сижу в университете, такой смотрю, а тут он какая красотень...",
+                device: "Samsung Galaxy A35",
                 preview: "/assets/images/p_18.webp",
-                original: "/assets/images/nform/Вечерний мост.jpg"
+                original: "/assets/images/nform/Утренний туман.jpg"
             },
             {
                 id: "19",
-                title: "Плитка",
-                desc: "Заинтересовался отражением в этой плитке, кажись кадр получился не особо плох",
+                title: "Вечерний мост",
+                desc: "Первая RAW фотография, очень ею рад.",
                 device: "iPhone 15 Pro",
                 preview: "/assets/images/p_19.webp",
-                original: "/assets/images/nform/Плитка.jpg"
+                original: "/assets/images/nform/Вечерний мост.jpg"
             },
             {
                 id: "20",
-                title: "Высоковолка 2",
-                desc: "Уже другая версия этой электробашни",
+                title: "Плитка",
+                desc: "Заинтересовался отражением в этой плитке, кажись кадр получился не особо плох",
                 device: "iPhone 15 Pro",
                 preview: "/assets/images/p_20.webp",
-                original: "/assets/images/nform/Высоковолка 2.png"
+                original: "/assets/images/nform/Плитка.jpg"
             },
             {
                 id: "21",
-                title: "Вечерний закат",
-                desc: "Как же классно кататься на велосипеде под такие красивые кадры",
+                title: "Высоковолка 2",
+                desc: "Уже другая версия этой электробашни",
                 device: "iPhone 15 Pro",
                 preview: "/assets/images/p_21.webp",
-                original: "/assets/images/nform/Вечерний закат.png"
+                original: "/assets/images/nform/Высоковолка 2.png"
             },
             {
                 id: "22",
-                title: "VHS - камеры легенд",
-                desc: "Лучший кадр который я наверно запечатлил, который связан с водой",
+                title: "Вечерний закат",
+                desc: "Как же классно кататься на велосипеде под такие красивые кадры",
                 device: "iPhone 15 Pro",
                 preview: "/assets/images/p_22.webp",
-                original: "/assets/images/nform/vhs.jpg"
+                original: "/assets/images/nform/Вечерний закат.png"
             },
             {
                 id: "23",
-                title: "Вид с моста",
-                desc: "Ведь же умеют делать такие грандиозные виды",
+                title: "VHS - камеры легенд",
+                desc: "Лучший кадр который я наверно запечатлил, который связан с водой",
                 device: "iPhone 15 Pro",
                 preview: "/assets/images/p_23.webp",
-                original: "/assets/images/nform/Вид с моста.jpg"
+                original: "/assets/images/nform/vhs.jpg"
             },
             {
                 id: "24",
-                title: "Поле",
-                desc: "День рождения кента отмечать, думаю лучшее что случалось",
+                title: "Вид с моста",
+                desc: "Ведь же умеют делать такие грандиозные виды",
                 device: "iPhone 15 Pro",
                 preview: "/assets/images/p_24.webp",
-                original: "/assets/images/nform/Поле.png"
+                original: "/assets/images/nform/Вид с моста.jpg"
             },
             {
                 id: "25",
-                title: "Перенасыщеный лес",
-                desc: "Вот тебе и берёзочки, и ёлочки, и он солнышка как много не бывает....",
+                title: "Поле",
+                desc: "День рождения кента отмечать, думаю лучшее что случалось",
                 device: "iPhone 15 Pro",
                 preview: "/assets/images/p_25.webp",
-                original: "/assets/images/nform/Перенасыщеный лес.png"
+                original: "/assets/images/nform/Поле.png"
             },
             {
                 id: "26",
+                title: "Перенасыщеный лес",
+                desc: "Вот тебе и берёзочки, и ёлочки, и он солнышка как много не бывает....",
+                device: "iPhone 15 Pro",
+                preview: "/assets/images/p_26.webp",
+                original: "/assets/images/nform/Перенасыщеный лес.png"
+            },
+            {
+                id: "27",
                 title: "Кажись не вечерок...",
                 desc: "Я думаю каждый делал две версии, вечернюю и дневную",
                 device: "iPhone 15 Pro",
-                preview: "/assets/images/p_26.webp",
+                preview: "/assets/images/p_27.webp",
                 original: "/assets/images/nform/Кажись не вечерок.png"
+            },
+            {
+                id: "28",
+                title: "Кошандре вайбовый",
+                desc: "Ласковый кстати, и милый",
+                device: "iPhone 15 Pro",
+                preview: "/assets/images/p_28.webp",
+                original: "/assets/images/nform/Кошандре вайбовый.png"
+            },
+            {
+                id: "29",
+                title: "Надо полюбоваться осенним времячком",
+                desc: "А то он скоро зима, трудна будет, надо хотябы пожить сегодняшним, нежели вспоминать прошлое...",
+                device: "iPhone 15 Pro",
+                preview: "/assets/images/p_29.webp",
+                original: "/assets/images/nform/Надо полюбоваться осенним времячком.PNG"
+            },
+            {
+                id: "30",
+                title: "Чад кэт",
+                desc: "Моггает половину своих побратьев, тигр",
+                device: "iPhone 15 Pro",
+                preview: "/assets/images/p_30.webp",
+                original: "/assets/images/nform/Чад кэт.PNG"
+            },
+            {
+                id: "31",
+                title: "Кто там?",
+                desc: "Где, и что там такое бегает?",
+                device: "iPhone 15 Pro",
+                preview: "/assets/images/p_31.webp",
+                original: "/assets/images/nform/Кто там.PNG"
+            },
+            {
+                id: "32",
+                title: "Закат на фоне речки",
+                desc: "Домик классный, видно по кустарникам на территории, заброшен он давно...",
+                device: "iPhone 15 Pro",
+                preview: "/assets/images/p_32.webp",
+                original: "/assets/images/nform/Закат на фоне речки.png"
+            },
+            {
+                id: "33",
+                title: "Панельки",
+                desc: "Всегда крутая атмосфера идет от них",
+                device: "iPhone 15 Pro",
+                preview: "/assets/images/p_33.webp",
+                original: "/assets/images/nform/Панельки.PNG"
+            },
+            {
+                id: "34",
+                title: "Вечерние облака",
+                desc: "Лучший вечер будет тот - если на улице такие облака",
+                device: "iPhone 15 Pro",
+                preview: "/assets/images/p_34.webp",
+                original: "/assets/images/nform/Вечерние облака.png"
             },
         ];
 
