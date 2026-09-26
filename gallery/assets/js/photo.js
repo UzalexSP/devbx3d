@@ -269,7 +269,7 @@ const photos = [
                 desc: "Лучший вечер будет тот - если на улице такие облака",
                 device: "iPhone 15 Pro",
                 preview: "/assets/images/p_34.webp",
-                original: "/assets/images/nform/Вечерние облака.png"
+                original: "/assets/images/nform/Вечерние облака.jpg"
             },
         ];
 
