@@ -261,7 +261,7 @@ const photos = [
                 desc: "Всегда крутая атмосфера идет от них",
                 device: "iPhone 15 Pro",
                 preview: "/assets/images/p_33.webp",
-                original: "/assets/images/nform/Панельки.PNG"
+                original: "/assets/images/nform/Панельки.png"
             },
             {
                 id: "34",
