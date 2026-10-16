@@ -67,9 +67,9 @@ const photos = [
                 id: "09",
                 title: "Dimension",
                 desc: "Первый мой серьезный проект",
-                device: "Nikon P510",
+                device: "iPhone 15 Pro",
                 preview: "/assets/images/p_09.webp",
-                original: "/assets/images/nform/dimension.png"
+                original: "/assets/images/nform/Dimension.png"
             },
             {
                 id: "10",
@@ -205,7 +205,7 @@ const photos = [
                 desc: "Вот тебе и берёзочки, и ёлочки, и он солнышка как много не бывает....",
                 device: "iPhone 15 Pro",
                 preview: "/assets/images/p_26.webp",
-                original: "/assets/images/nform/Перенасыщенный лес.png"
+                original: "/assets/images/nform/Перенасыщеный лес.png"
             },
             {
                 id: "27",
@@ -221,7 +221,7 @@ const photos = [
                 desc: "Ласковый кстати, и милый",
                 device: "iPhone 15 Pro",
                 preview: "/assets/images/p_28.webp",
-                original: "/assets/images/nform/Кошандре вайбовый.PNG"
+                original: "/assets/images/nform/Кошандре вайбовый.png"
             },
             {
                 id: "29",
@@ -261,7 +261,7 @@ const photos = [
                 desc: "Всегда крутая атмосфера идет от них",
                 device: "iPhone 15 Pro",
                 preview: "/assets/images/p_33.webp",
-                original: "/assets/images/nform/Панельки.png"
+                original: "/assets/images/nform/Панельки.PNG"
             },
             {
                 id: "34",
@@ -269,7 +269,79 @@ const photos = [
                 desc: "Лучший вечер будет тот - если на улице такие облака",
                 device: "iPhone 15 Pro",
                 preview: "/assets/images/p_34.webp",
-                original: "/assets/images/nform/Вечерние облака.png"
+                original: "/assets/images/nform/Вечерние облака.jpg"
+            },
+            {
+                id: "35",
+                title: "Парк",
+                desc: "Вечерняя атмосфера - лучший вариант отдохнуть и уйти на время от своих проблем",
+                device: "iPhone 15 Pro",
+                preview: "/assets/images/p_35.webp",
+                original: "/assets/images/nform/Парк.PNG"
+            },
+            {
+                id: "36",
+                title: "Отдых у первокурсников",
+                desc: "Посвята прошла отлично, даже на все 100, но многие недовольны",
+                device: "iPhone 15 Pro",
+                preview: "/assets/images/p_36.webp",
+                original: "/assets/images/nform/Отдых_первокурсников.png"
+            },
+            {
+                id: "37",
+                title: "Отдых у первокурсников в2",
+                desc: "Почему недоволны? Выпивки не было.",
+                device: "iPhone 15 Pro",
+                preview: "/assets/images/p_37.webp",
+                original: "/assets/images/nform/Отдых_первокурсников_в2.png"
+            },
+            {
+                id: "38",
+                title: "Кадр с воспоминанием",
+                desc: "Мягкий свет этой фотки дает мне тот вайб, что бля, как-то не зря живу, ради такой красоты, трудно сказать.",
+                device: "iPhone 15 Pro",
+                preview: "/assets/images/p_38.webp",
+                original: "/assets/images/nform/Кадр_воспоминания.png"
+            },
+            {
+                id: "39",
+                title: "Прекрасный Sunset",
+                desc: "Ходит легенда о том, что если умирает художник, Бог ему дает разукрасить вечернее небо. Очень красиво вышло.",
+                device: "iPhone 15 Pro",
+                preview: "/assets/images/p_39.webp",
+                original: "/assets/images/nform/Прекрасный_сансет.png"
+            },
+            {
+                id: "40",
+                title: "Sunset V2",
+                desc: "Такой красоты соглашусь, не видел давно.",
+                device: "iPhone 15 Pro",
+                preview: "/assets/images/p_40.webp",
+                original: "/assets/images/nform/sunset_v2.png"
+            },
+            {
+                id: "41",
+                title: "Обычный осенний день",
+                desc: "Бля каждый день бы прогуливался с таким прекрасным видом",
+                device: "iPhone 15 Pro",
+                preview: "/assets/images/p_41.webp",
+                original: "/assets/images/nform/Обычный_осенний_день.png"
+            },
+            {
+                id: "42",
+                title: "Домик",
+                desc: "С первого виду это маленькая статуэтка, а на самом деле это ничего себе по размерам здание))",
+                device: "iPhone 15 Pro",
+                preview: "/assets/images/p_42.webp",
+                original: "/assets/images/nform/Домик.png"
+            },
+            {
+                id: "43",
+                title: "Артист",
+                desc: "На фотографии артист - ILLIA YEMETS, хороший дядько, отлично выступил.",
+                device: "iPhone 15 Pro",
+                preview: "/assets/images/p_43.webp",
+                original: "/assets/images/nform/Артист.png"
             },
         ];
 
