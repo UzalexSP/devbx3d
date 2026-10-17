@@ -67,7 +67,7 @@ const photos = [
                 id: "09",
                 title: "Dimension",
                 desc: "Первый мой серьезный проект",
-                device: "iPhone 15 Pro",
+                device: "Nikon P510",
                 preview: "/assets/images/p_09.webp",
                 original: "/assets/images/nform/dimension.png"
             },
