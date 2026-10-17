@@ -69,7 +69,7 @@ const photos = [
                 desc: "Первый мой серьезный проект",
                 device: "iPhone 15 Pro",
                 preview: "/assets/images/p_09.webp",
-                original: "/assets/images/nform/Dimension.png"
+                original: "/assets/images/nform/dimension.png"
             },
             {
                 id: "10",
@@ -205,7 +205,7 @@ const photos = [
                 desc: "Вот тебе и берёзочки, и ёлочки, и он солнышка как много не бывает....",
                 device: "iPhone 15 Pro",
                 preview: "/assets/images/p_26.webp",
-                original: "/assets/images/nform/Перенасыщеный лес.png"
+                original: "/assets/images/nform/Перенасыщенный лес.png"
             },
             {
                 id: "27",
@@ -221,7 +221,7 @@ const photos = [
                 desc: "Ласковый кстати, и милый",
                 device: "iPhone 15 Pro",
                 preview: "/assets/images/p_28.webp",
-                original: "/assets/images/nform/Кошандре вайбовый.png"
+                original: "/assets/images/nform/Кошандре вайбовый.PNG"
             },
             {
                 id: "29",
@@ -269,7 +269,7 @@ const photos = [
                 desc: "Лучший вечер будет тот - если на улице такие облака",
                 device: "iPhone 15 Pro",
                 preview: "/assets/images/p_34.webp",
-                original: "/assets/images/nform/Вечерние облака.jpg"
+                original: "/assets/images/nform/Вечерние облака.png"
             },
             {
                 id: "35",
